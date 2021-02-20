@@ -4,7 +4,7 @@ export default class Novo extends Component {
     render() {
         return (
             <div>
-                <h1>titulo</h1>
+                <h1>Teste React</h1>
                 <p>Robertinha</p>
             </div>
         )
