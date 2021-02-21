@@ -1,0 +1,28 @@
+.Header {
+    grid-area: header;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #3d465e;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+a:hover {
+    color: #f69050;
+}
+
+.logo {
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 30px;
+    padding: 10px;
+}

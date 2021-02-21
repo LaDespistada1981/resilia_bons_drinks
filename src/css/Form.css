@@ -1,0 +1,32 @@
+.Form-contato {
+    display: grid;
+    width: 80%;
+    justify-self: center;
+    grid-template-areas:
+        "title title"
+        "half1 half2";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    gap: 20px;
+}
+
+.contato-title {
+    justify-content: center;
+    grid-area: "title";
+
+}
+
+.title {
+    color: brown;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.form {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
