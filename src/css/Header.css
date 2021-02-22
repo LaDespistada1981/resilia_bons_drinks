@@ -1,6 +1,7 @@
 .Header {
     grid-area: header;
     width: 100vw;
+    height: 60px;
     position: absolute;
     top: 0;
     display: flex;

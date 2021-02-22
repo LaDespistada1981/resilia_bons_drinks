@@ -1,4 +1,5 @@
 .Form-contato {
+    margin-top: 100px;
     display: grid;
     width: 80%;
     justify-self: center;
@@ -6,27 +7,102 @@
         "title title"
         "half1 half2";
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px auto;
     grid-gap: 20px;
     gap: 20px;
 }
 
-.contato-title {
-    justify-content: center;
-    grid-area: "title";
-
+.content {
+    grid-area: content;
 }
 
-.title {
-    color: brown;
+.title-contato {
+    justify-content: center;
+    grid-area: title title;
     font-weight: 700;
     font-size: 30px;
+    color: #a0505a;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
-.form {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
+
+.contact-pic {
+    display: grid;
+    margin-top: 100px;
+    grid-area: half1;
+    max-width: 100%;
+    align-self: start;
+    object-fit: cover;
+    max-height: 400px;
+    width: 550px;
+    border-radius: 5px;
+}
+
+.contact-form {
+    grid-area: half2;
+    align-self: start;
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #a0505a;
+    padding: 0;
+    font-size: 18px;
+    
+    margin-bottom: 10px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    border: 1px solid #a0505a;
+    padding: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #101010;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #101010;
+}
+
+.btn-contact {
+    display: block;
+    margin-left: 50%;
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fffdf8;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #a0505a;
+}
+
+.btn-contact:hover {
+    background-color: #f69050;
+    border: 1px solid #f69050;
+}
+

@@ -1,6 +1,7 @@
 .Footer {
-    grid-area: "footer";
+    grid-area: footer;
     display: flex;
+    height: 40px;
     position: fixed;
     bottom: 0;
     align-items: center;
