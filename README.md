@@ -2,7 +2,7 @@
 <h3 align="center">A passionate Business Analyst and Full-stack developer student from Brazil.</h3>
 <br>
 
-- 🔭 I’m currently working on [Resilia_Modulo04](https://github.com/LaDespistada1981/Resilia_Modulo04)
+- 🔭 I’m currently working on [Resilia - Bons Drinks](https://github.com/LaDespistada1981/resilia_bons_drinks)
 
 - 🌱 I’m currently learning **JavaScript, NodeJS, React, SQL, NoSQL, Docker**
 
