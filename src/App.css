@@ -1,0 +1,27 @@
+/* Variáveis de cor - Paleta */
+:root {
+  --white: #ffffff;
+  --bg: #fffdf8;
+  --black: #101010;
+  --red_wine: #5c0511;
+  --orange: #d3933a;
+  --fontLogo: "Bilbo Swash Caps", cursive;
+  --fontTitle: "Open Sans Condensed", sans-serif;
+  --fontBody: "Open Sans Condensed", sans-serif;
+}
+
+/* Config. Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  grid-template-rows: 10vh 85vh 5vh;
+}

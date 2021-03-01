@@ -1,0 +1,39 @@
+.Header {
+  grid-area: "header";
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 700;
+  padding: 10px 0;
+  z-index: 100;
+  box-shadow: 5px 5px 10px var(--black);
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NavBar a {
+  font-family: var(--fontItens);
+  color: var(--black);
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.NavBar a:hover {
+  color: var(--orange);
+  border-color: var(--orange);
+}
+
+.NavBar .logo {
+  font-family: var(--fontLogo);
+  font-size: 40px;
+  text-shadow: 1px 2px 3px #666;
+  padding: 10px;
+}

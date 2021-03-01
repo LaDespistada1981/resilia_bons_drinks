@@ -1,13 +1,17 @@
-import '../src/css/App.css';
-import Header from './components/Header'
-import Form from './components/Form';
-import Footer from './components/Footer';
+import "./App.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
+import Button from "./components/Button/Button";
+// import Contato from "./components/Contato/Contato";
 
 function App() {
   return (
-    <div className="App grid bgColor">
+    <div className="App">
       <Header />
-      <Form />
+      <Home />
+      {/* <Contato /> */}
+      <Button style={{ backgroundColor: "purple" }}>Me clique!</Button>
       <Footer />
     </div>
   );
