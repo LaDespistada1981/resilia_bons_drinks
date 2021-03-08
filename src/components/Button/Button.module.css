@@ -1,7 +1,6 @@
 .btn {
-  background-color: blueviolet;
   color: var(--white);
-  grid-area: "footer";
+  grid-area: "content";
   padding: 20px;
   width: 100px;
   height: 50px;

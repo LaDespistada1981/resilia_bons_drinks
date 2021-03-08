@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../Contato/Contato.css";
 import imagemContato from "../../img/contact-pic.jpg";
+import Button from "../Button/Button";
 
 export default class Contato extends Component {
   render() {
@@ -27,7 +28,7 @@ export default class Contato extends Component {
               <textarea name="message" id="" cols="30" rows="10"></textarea>
             </div>
             <div className="item-form">
-              <button className="btn-contact" type="submit">
+              <button className={Button} type="submit">
                 Enviar
               </button>
             </div>
