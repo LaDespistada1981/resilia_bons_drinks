@@ -1,8 +1,0 @@
-.btn {
-  color: var(--white);
-  grid-area: "content";
-  padding: 20px;
-  width: 100px;
-  height: 50px;
-  cursor: pointer;
-}

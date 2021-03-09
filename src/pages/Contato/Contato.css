@@ -1,0 +1,39 @@
+.Form-contato {
+  margin-top: 80px;
+  display: grid;
+  width: 80%;
+  justify-self: center;
+  grid-template-areas:
+    "title title"
+    "half1 half2";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px auto;
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+.content {
+  grid-area: content;
+}
+
+.title-contato {
+  display: grid;
+  grid-area: title;
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--red_wine);
+  text-align: center;
+}
+
+.contact-pic {
+  display: grid;
+  justify-self: flex-start;
+  margin: 0 auto;
+  grid-area: half1;
+  max-width: 90%;
+  align-self: start;
+  object-fit: cover;
+  max-height: 350px;
+  width: 85%;
+  border-radius: 5px;
+}

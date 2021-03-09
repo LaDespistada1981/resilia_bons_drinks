@@ -2,9 +2,9 @@
 :root {
   --white: #ffffff;
   --bg: #fffdf8;
-  --black: #101010;
-  --red_wine: #5c0511;
-  --orange: #d3933a;
+  --black: #2e2e2e;
+  --red_wine: #af0118;
+  --orange: #fb8320;
   --fontLogo: "Bilbo Swash Caps", cursive;
   --fontTitle: "Open Sans Condensed", sans-serif;
   --fontBody: "Open Sans Condensed", sans-serif;
@@ -23,5 +23,5 @@
     "header"
     "content"
     "footer";
-  grid-template-rows: 10vh 85vh 5vh;
+  grid-template-rows: 8vh 87vh 5vh;
 }

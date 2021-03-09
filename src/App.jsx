@@ -2,8 +2,8 @@ import React from "react";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
-import Contato from "./components/Contato/Contato";
+import Home from "./pages/Home/Home";
+import Contato from "./pages/Contato/Contato";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -18,6 +18,9 @@ function App() {
           <Route exact path="/contato">
             <Contato />
           </Route>
+          {/* <Route exact to path="/sobre">
+            <Sobre />
+          </Route> */}
         </Switch>
         <Footer />
       </BrowserRouter>

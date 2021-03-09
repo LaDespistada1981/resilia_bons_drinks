@@ -1,13 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
+import "../Button/Button.css";
 
-export default class Button extends Component {
-  
-  constructor(props)
-  render() {
-    return (
-      <button className="btn-contact" type="submit">
-        Enviar
-      </button>
-    );
+const Button = () => {
+  function meuClick() {
+    console.log("Fui clicado!");
   }
-}
+
+  return (
+    <button className="btn" type="submit" onClick={meuClick()}>
+      Enviar
+    </button>
+  );
+};
+
+export default Button;
