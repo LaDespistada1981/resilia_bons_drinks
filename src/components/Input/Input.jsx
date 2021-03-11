@@ -1,9 +1,14 @@
-// import React, { Component } from "react";
-// import style from "../Input/Input.css";
-// export default class Input extends Component {
-//   render() {
-//     return (
-//       <input type="text" style={this.props.style} className={style.inpt} />
-//     );
-//   }
-// }
+import React from "react";
+import "../Input/Input.css";
+
+const Input = (props) => {
+  return (
+    <>
+      <label htmlFor={props.name}>{props.children}</label>
+
+      <input type={props.type} nome={props.name} id={props.id} />
+    </>
+  );
+};
+
+export default Input;

@@ -16,7 +16,7 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/contato">
-            <Contato />
+            <Contato titulo="Contato" />
           </Route>
           {/* <Route exact to path="/sobre">
             <Sobre />
