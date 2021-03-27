@@ -1,0 +1,14 @@
+/* Variáveis de cor - Paleta */
+.app {
+  font-family: var(--fontTitle);
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  grid-template-rows: 7vh 86vh 7vh;
+}
+
+.menuTop {
+  grid-area: header;
+}

@@ -1,12 +1,10 @@
 import React from "react";
-import "../Input/Input.css";
 
-const Input = (props) => {
+const Input = ({ htmlFor, type, name, content }) => {
   return (
     <>
-      <label htmlFor={props.name}>{props.children}</label>
-
-      <input type={props.type} nome={props.name} id={props.id} />
+      <label htmlFor={htmlFor}>{content}</label>
+      <input type={type} id={htmlFor} name={name} />
     </>
   );
 };

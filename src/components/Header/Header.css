@@ -1,24 +1,23 @@
-.Header {
-  grid-area: "header";
+.navMenu {
+  background-color: var(--bg_bege);
+  font-family: var(--fontTitle);
+  grid-area: header;
   width: 100vw;
-  position: absolute;
-  top: 0;
-  display: flex;
   justify-content: space-around;
   align-items: center;
   font-weight: 700;
-  padding: 10px 0;
+  padding: 0;
   z-index: 100;
 }
 
-.NavBar {
+.navBar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   box-shadow: 5px 5px 10px rgba(155, 150, 150, 0.404);
 }
 
-.NavBar a {
+.navBar a {
   font-family: var(--fontItens);
   color: var(--black);
   font-size: 25px;
@@ -26,12 +25,12 @@
   text-decoration: none;
 }
 
-.NavBar a:hover {
+.navBar a:hover {
   color: var(--orange);
   border-color: var(--orange);
 }
 
-.NavBar .logo {
+.navBar .logo {
   font-family: var(--fontLogo);
   font-size: 40px;
   text-shadow: 1px 2px 3px #666;

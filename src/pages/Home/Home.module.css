@@ -1,0 +1,14 @@
+.containerImg {
+  background-image: url(./../../img/bgHome.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logoAnimada {
+  font-family: var(--fontLogo);
+  color: var(--white);
+  font-size: 120px;
+  text-shadow: 1px 2px 3px #666;
+  padding-top: 30px;
+}

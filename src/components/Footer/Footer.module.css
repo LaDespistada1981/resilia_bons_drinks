@@ -1,0 +1,18 @@
+.footer {
+  font-family: var(--fontTitle);
+  display: grid;
+  place-items: center;
+  grid-area: "footer";
+  background-color: var(--bg_bege);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 42%);
+  z-index: 100;
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}

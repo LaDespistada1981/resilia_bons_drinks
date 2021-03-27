@@ -16,3 +16,7 @@ input {
   font-size: 18px;
   margin-bottom: 10px;
 }
+
+input:hover{
+  border: 1px solid var(--orange);
+}

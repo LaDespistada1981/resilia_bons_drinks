@@ -1,12 +1,8 @@
-.homePage {
+.home {
+  grid-area: content;
   background-image: url(../../img/bgHome.jpg);
-  grid-area: "content";
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: auto;
-  text-align: center;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
 }
 
 .logoAnimada {

@@ -4,10 +4,10 @@ import "../TextArea/TextArea.css";
 const TextArea = (props) => {
   return (
     <>
-      <label htmlFor="{props.name}">{props.children}</label>
+      <label htmlFor={props.htmlFor}>{props.content}</label>
       <textarea
         name={props.name}
-        id={props.id}
+        id={props.htmlFor}
         cols={props.cols}
         rows={props.rows}
       ></textarea>

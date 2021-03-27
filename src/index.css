@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --white: #ffffff;
+  --bg: #fffdf8;
+  --bg_bege:#fffbef;
+  --black: #2e2e2e;
+  --red_wine: #af0118;
+  --orange: #fb8320;
+  --fontLogo: "Bilbo Swash Caps", cursive;
+  --fontTitle: "Open Sans Condensed", sans-serif;
+  --fontBody: "Open Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Config. Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

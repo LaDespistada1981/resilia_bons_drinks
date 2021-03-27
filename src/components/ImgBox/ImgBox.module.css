@@ -1,0 +1,15 @@
+.imgBox {
+    width:80% ;
+    max-width: 90%;
+
+display: grid;
+  justify-self: flex-start;
+  margin: 0 auto;
+  grid-area: half1;
+  
+  align-self: start;
+  object-fit: cover;
+  max-height: 350px;
+  width: 85%;
+  border-radius: 5px;
+}

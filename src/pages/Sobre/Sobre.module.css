@@ -1,4 +1,4 @@
-.formContato {
+.sobre {
   margin-top: 80px;
   display: grid;
   width: 80%;
@@ -16,7 +16,7 @@
   grid-area: content;
 }
 
-.titleContato {
+.titleSobre {
   display: grid;
   grid-area: title;
   font-weight: 700;
@@ -25,7 +25,7 @@
   text-align: center;
 }
 
-.contactPic {
+.sobre .sobrePic {
   display: grid;
   justify-self: flex-start;
   margin: 0 auto;
@@ -39,5 +39,6 @@
 }
 
 .footer{
+  position: absolute;
   bottom: 0;
 }

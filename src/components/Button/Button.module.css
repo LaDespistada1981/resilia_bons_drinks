@@ -1,4 +1,4 @@
-Button {
+.btn {
   font-size: 18px;
   font-family: var(--fontBody);
   font-weight: 700;
@@ -12,5 +12,5 @@ Button {
 
 .btn:hover {
   background-color: var(--orange);
-  border: 1px solid var(--orange);
+  border: none;
 }

@@ -1,0 +1,7 @@
+.p {
+    color: #101010b6;
+    font-family: var(--fontBody);
+    font-size: 18px;
+    display: flex;
+    text-align: justify;
+}
