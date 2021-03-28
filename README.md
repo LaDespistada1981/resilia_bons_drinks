@@ -12,7 +12,7 @@
 # Projeto 
 ## **Bons Drinks**
 
-Este projeto trata-se do projeto de conclusão do módulo de React do curso de desenvolvimento web full stack da <a href="https://www.resilia.work/" target="_blank"> <img src="https://i.imgur.com/pl1r9l3.png" alt="Resilia" width="75" height="auto"/></a> e foi desenvolvido ao longo de dos meses de fevereiro e março de 2021.
+Este projeto trata-se do projeto de conclusão do módulo de React do curso de desenvolvimento web full stack do bootcamp <a href="https://www.resilia.work/" target="_blank"> <img src="https://i.imgur.com/pl1r9l3.png" alt="Resilia" width="75" height="auto"/></a> e foi desenvolvido ao longo de dos meses de fevereiro e março de 2021.
 
 Nosso produto, **Bons Drinks**, trata-se de uma plataforma em que o usuário pode pesquisar diversas receitas de drinks alcóolicos e não-alcóolicos. 
 Nosso produto consulta e retorna todos os seus drinks na Api [The Cocktail BD](https://www.thecocktaildb.com/).
@@ -52,7 +52,7 @@ Em ambiente de desenvolvimento, você ainda pode executar os seguintes scripts:
 
 ### `yarn eject`
 
-**Alerta: Esta é uma operação única. Após `eject`, não pode ser retornada!**
+**Alerta: Esta é uma operação única. Após o script `eject` ser executado, não pode ser retornado!**
 
 - Se você não estiver satisfeito com a ferramenta de construção e as opções  de configuração, você pode `eject` a qualquer momento. Este comando removerá a dependência única de compilação do seu projeto.\
 Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente em seu projeto para que você tenha total controle sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas eles irão apontar para os scripts copiados para que você possa ajustá-los. Neste ponto, você está sozinho.\
