@@ -4,7 +4,7 @@ import styles from "../Footer/Footer.module.css";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <p>Resilia 2021 - Alguns direitos reservados</p>
+      <p class={styles.texto}>Resilia 2021 - Alguns direitos reservados</p>
     </footer>
   );
 };

@@ -1,3 +1,8 @@
+.textArea {
+  display: flex;
+  justify-content: center;
+}
+
 textarea {
   display: block;
   width: 100%;

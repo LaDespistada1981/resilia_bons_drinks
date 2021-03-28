@@ -1,18 +1,20 @@
 .footer {
-  font-family: var(--fontTitle);
-  display: grid;
-  place-items: center;
-  grid-area: "footer";
-  background-color: var(--bg_bege);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 42%);
-  z-index: 100;
-  bottom: 0;
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
   position: fixed;
-  width: 100vw;
+  bottom: 0;
+  background-color: var(--bg_bege);
+  z-index: 1;
 }
 
-p {
-  font-size: 16px;
-  font-weight: 600;
-  text-align: center;
+.texto {
+  font-size: medium;
 }

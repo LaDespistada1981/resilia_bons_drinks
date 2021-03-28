@@ -1,9 +1,9 @@
 import React from "react";
-import "../TextArea/TextArea.css";
+import styles from "../TextArea/TextArea.module.css";
 
 const TextArea = (props) => {
   return (
-    <>
+    <div class={styles.textArea}>
       <label htmlFor={props.htmlFor}>{props.content}</label>
       <textarea
         name={props.name}
@@ -11,7 +11,7 @@ const TextArea = (props) => {
         cols={props.cols}
         rows={props.rows}
       ></textarea>
-    </>
+    </div>
   );
 };
 

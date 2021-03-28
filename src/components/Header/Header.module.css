@@ -1,23 +1,24 @@
-.navMenu {
-  background-color: var(--bg_bege);
-  font-family: var(--fontTitle);
-  grid-area: header;
+.Header {
+  grid-area: "header";
   width: 100vw;
+  position: absolute;
+  top: 0;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   font-weight: 700;
-  padding: 0;
-  z-index: 100;
+  padding: 10px 0;
+  z-index: 1;
 }
 
-.navBar {
+.navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   box-shadow: 5px 5px 10px rgba(155, 150, 150, 0.404);
 }
 
-.navBar a {
+.navbar a {
   font-family: var(--fontItens);
   color: var(--black);
   font-size: 25px;
@@ -25,12 +26,12 @@
   text-decoration: none;
 }
 
-.navBar a:hover {
+.navbar a:hover {
   color: var(--orange);
   border-color: var(--orange);
 }
 
-.navBar .logo {
+.navbar .logo {
   font-family: var(--fontLogo);
   font-size: 40px;
   text-shadow: 1px 2px 3px #666;

@@ -3,8 +3,8 @@ import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <main className="containerImg">
-      <h1 className={styles.logoAnimada}>Bons Drinks</h1>
+    <main className={styles.containerImg}>
+      <h1 className={styles.logo}>Bons Drinks</h1>
     </main>
   );
 };

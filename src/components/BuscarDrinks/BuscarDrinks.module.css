@@ -1,9 +1,7 @@
 .buscarDrinks {
   grid-area: content;
   display: grid;
-  grid-template-areas:
-    "cabecalho"
-    "conteudo";
+  grid-template-areas: "cabecalio" "conteudo-Drink";
   grid-template-rows: 3fr 5fr;
 }
 
@@ -15,5 +13,5 @@
 }
 
 .conteudo {
-  grid-area: conteudo;
+  grid-area: conteudo-Drink;
 }

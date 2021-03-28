@@ -1,4 +1,3 @@
-/* Variáveis de cor - Paleta */
 .app {
   font-family: var(--fontTitle);
   display: grid;
@@ -6,7 +5,7 @@
     "header"
     "content"
     "footer";
-  grid-template-rows: 7vh 86vh 7vh;
+  grid-template-rows: 60px auto 40px;
 }
 
 .menuTop {

@@ -1,22 +1,12 @@
-import React, { useEffect, useState } from "react";
-import Button from "../Button/Button";
+import React from "react";
 import styles from "../Drinks/Drinks.module.css";
+import BuscarDrinks from "../../components/BuscarDrinks/BuscarDrinks";
 
-const Drinks = () => {
-  const [dados, setDados] = useState([]);
-
-  useEffect(() => {
-    fetch("https://www.thecocktaildb.com/api/json/v1/1/random.php")
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data.drinks[0].strDrink);
-      });
-  }, []);
-
+const Drinks = (props) => {
   return (
-    <div className={styles.div}>
-      <h1>Drinks</h1>
-      <Button />
+    <div className={styles.buscarDrinks}>
+      <h1 className={StyleSheet.titleDrinks}>{props.titulo}</h1>
+      <BuscarDrinks />
     </div>
   );
 };
