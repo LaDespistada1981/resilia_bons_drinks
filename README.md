@@ -37,6 +37,15 @@ Essas instruções permitirão que você consiga ter esse projeto em operação 
 ## 📦 Desenvolvimento
 
 Em ambiente de desenvolvimento, você ainda pode executar os seguintes scripts:
+### 🛠️ Dependências de desenvolvimento:
+- @testing-library/jest-dom: versão 5.11.4,
+- @testing-library/react: versão 11.1.0,
+- @testing-library/user-event: versão 12.1.10,
+- react: versão 17.0.1,
+- react-dom: versão 17.0.1,
+- react-router-dom: versão 5.2.0,
+- react-scripts: versão 4.0.3,
+- web-vitals: versão 1.0.1
 
 ### `yarn test`
 - Este script inicia o executor de teste no modo de observação interativo. Para mais informações, acesse  [testes](https://facebook.github.io/create-react-app/docs/running-tests) 
