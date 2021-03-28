@@ -28,11 +28,12 @@ const Form = () => {
         htmlFor="email"
       ></Input>
       <TextArea
+        htmlFor="mensagem"
         name="mensagem"
-        id=""
+        id="mensagem"
         cols="30"
         rows="10"
-        content="Mensagem:"
+        content="Mensagem: "
         value={caractere}
         onChange={escreveJunto}
       ></TextArea>

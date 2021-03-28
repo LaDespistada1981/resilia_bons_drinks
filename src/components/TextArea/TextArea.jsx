@@ -1,16 +1,11 @@
 import React from "react";
 import styles from "../TextArea/TextArea.module.css";
 
-const TextArea = (props) => {
+const TextArea = ({ htmlFor, content, name, cols, rows }) => {
   return (
     <div class={styles.textArea}>
-      <label htmlFor={props.htmlFor}>{props.content}</label>
-      <textarea
-        name={props.name}
-        id={props.htmlFor}
-        cols={props.cols}
-        rows={props.rows}
-      ></textarea>
+      <label htmlFor={htmlFor}>{content}</label>
+      <textarea name={name} id={htmlFor} cols={cols} rows={rows}></textarea>
     </div>
   );
 };

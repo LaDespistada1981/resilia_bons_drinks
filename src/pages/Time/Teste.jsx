@@ -8,12 +8,13 @@ const Teste = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log(data.drinks[0].strDrink);
+        setDados(data.drinks[0].strDrink);
       });
   }, []);
 
   return (
     <>
-      <h1></h1>
+      <h1>{data.drinks[0].strDrink}</h1>
     </>
   );
 };
