@@ -101,7 +101,7 @@ Consulte: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-
 
 ## 📌 Versão
 
-Utilizamos [GitHub](https://github.com/) para controle de versão. Para as versões disponíveis, procure em [resilia_m4u](https://github.com/LaDespistada1981/resilia_bons_drinks).
+Utilizamos [GitHub](https://github.com/) para controle de versão. Para as versões disponíveis, procure em [resilia_bons_drinks](https://github.com/LaDespistada1981/resilia_bons_drinks).
 <br><br>
 
 
@@ -111,7 +111,3 @@ Utilizamos [GitHub](https://github.com/) para controle de versão. Para as vers�
 💻 **Roberta Santos** - [GitHub](https://github.com/LaDespistada1981) | [LinkedIn](https://www.linkedin.com/in/santosroberta/)
 
 <br>
-
-
-
-
