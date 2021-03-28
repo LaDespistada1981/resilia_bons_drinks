@@ -12,10 +12,10 @@
 # Projeto 
 ## **Bons Drinks**
 
-Este projeto trata-se do projeto de conclusão do módulo de React do curso de desenvolvimento web full stack do bootcamp <a href="https://www.resilia.work/" target="_blank"> <img src="https://i.imgur.com/pl1r9l3.png" alt="Resilia" width="75" height="auto"/></a> e foi desenvolvido ao longo de dos meses de fevereiro e março de 2021.
+Este projeto trata-se do projeto de conclusão do módulo de React do curso de desenvolvimento web full stack do bootcamp <a href="https://www.resilia.work/" target="_blank"> <img src="https://i.imgur.com/pl1r9l3.png" alt="Resilia" width="75" height="auto"/></a> e foi desenvolvido ao longo dos meses de fevereiro e março de 2021.
 
 Nosso produto, **Bons Drinks**, trata-se de uma plataforma em que o usuário pode pesquisar diversas receitas de drinks alcóolicos e não-alcóolicos. 
-Nosso produto consulta e retorna todos os seus drinks na Api [The Cocktail BD](https://www.thecocktaildb.com/).
+Nosso produto consulta e retorna drinks da base de dados da Api [The Cocktail BD](https://www.thecocktaildb.com/).
 
 
 ## 🚀 Começando
@@ -28,7 +28,7 @@ Essas instruções permitirão que você consiga ter esse projeto em operação 
 ==> Este projeto foi desenvolvido com [Create React App](https://github.com/facebook/create-react-app).
   
 ==> Instruções para acesso projeto:
-- clone o repositório resilia_bons_drinks;
+- Clone o [repositório](https://github.com/LaDespistada1981/resilia_bons_drinks.git);
 - Entre no diretório e execute no terminal o script yarn start ou npm start se tiver os pacotes npm ou yarn instalados em seu computador.
 - Abra no endereço [http://localhost:3000](http://localhost:3000) para visualizar a aplicação em seu navegador.
 - Caso não tenha os pacotes npm ou yarn instalados em seu computador, você pode abrir o arquivo index.html contido no diretório em seu navegador de preferência.<br><br>
