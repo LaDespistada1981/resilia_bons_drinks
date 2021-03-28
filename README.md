@@ -37,7 +37,7 @@ Essas instruções permitirão que você consiga ter esse projeto em operação 
 ## 📦 Desenvolvimento
 
 Em ambiente de desenvolvimento, você ainda pode executar os seguintes scripts:
-### 🛠️ Dependências de desenvolvimento:
+### 🛠️ Dependências:
 - @testing-library/jest-dom: versão 5.11.4,
 - @testing-library/react: versão 11.1.0,
 - @testing-library/user-event: versão 12.1.10,
