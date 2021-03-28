@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+<h1 align="center">Olá 👋!
+ Bem vinde ao meu repositório!</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Linguagens e Ferramentas Utilizadas:</h3>
+<p align="center">
+<a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
+<a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
+<a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
+<a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a><br><br>
 
-## Available Scripts
+# Projeto 
+## **Bons Drinks**
 
-In the project directory, you can run:
+Este projeto trata-se do projeto de conclusão do módulo de React do curso de desenvolvimento web full stack da <a href="https://www.resilia.work/" target="_blank"> <img src="https://i.imgur.com/pl1r9l3.png" alt="Resilia" width="75" height="auto"/></a> e foi desenvolvido ao longo de dos meses de fevereiro e março de 2021.
 
-### `yarn start`
+Nosso produto, **Bons Drinks**, trata-se de uma plataforma em que o usuário pode pesquisar diversas receitas de drinks alcóolicos e não-alcóolicos. 
+Nosso produto consulta e retorna todos os seus drinks na Api [The Cocktail BD](https://www.thecocktaildb.com/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Começando
+
+Essas instruções permitirão que você consiga ter esse projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+<br>
+
+### 📋 Pré-requisitos para instalação 🔧
+
+==> Este projeto foi desenvolvido com [Create React App](https://github.com/facebook/create-react-app).
+  
+==> Instruções para acesso projeto:
+- clone o repositório resilia_bons_drinks;
+- Entre no diretório e execute no terminal o script yarn start ou npm start se tiver os pacotes npm ou yarn instalados em seu computador.
+- Abra no endereço [http://localhost:3000](http://localhost:3000) para visualizar a aplicação em seu navegador.
+- Caso não tenha os pacotes npm ou yarn instalados em seu computador, você pode abrir o arquivo index.html contido no diretório em seu navegador de preferência.<br><br>
+
+
+## 📦 Desenvolvimento
+
+Em ambiente de desenvolvimento, você ainda pode executar os seguintes scripts:
 
 ### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Este script inicia o executor de teste no modo de observação interativo. Para mais informações, acesse  [testes](https://facebook.github.io/create-react-app/docs/running-tests) 
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Este script compila para produção na pasta `build`.\
+  Ele agrupa corretamente o React no modo de produção e otimiza a construção par o melhor desempenho.\
+  A compilação e reduzida e os nomes dos arquivos incluem os hashes.\
+  Seu aplicatico está pronto para ser implantado.
+-Para maiores informações, acesse
+[deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Alerta: Esta é uma operação única. Após `eject`, não pode ser retornada!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Se você não estiver satisfeito com a ferramenta de construção e as opções  de configuração, você pode `eject` a qualquer momento. Este comando removerá a dependência única de compilação do seu projeto.\
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente em seu projeto para que você tenha total controle sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas eles irão apontar para os scripts copiados para que você possa ajustá-los. Neste ponto, você está sozinho.\
+Você não precisa usar `eject`. O conjunto de recursos selecionados é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que esta ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronto para ela.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Para maiores informações:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Consulte [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Learn More
+Para saber mais, procure em [React documentation](https://reactjs.org/).<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Divisão de código - Code Splitting
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Consulte em: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)<br>
 
-### Code Splitting
+### Analisando Tamanho do Pacote - Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Consulte em: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)<br>
 
-### Analyzing the Bundle Size
+### Fazendo um Web APP progressivo - Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Consulte em: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)<br>
 
-### Making a Progressive Web App
+### Configurações avançadas - Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Consulte: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)<br>
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Consulte: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)<br>
 
-### `yarn build` fails to minify
+### Falha no `yarn build` não consegue minificar - `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Consulte: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br><br>
+
+
+## 📌 Versão
+
+Utilizamos [GitHub](https://github.com/) para controle de versão. Para as versões disponíveis, procure em [resilia_m4u](https://github.com/LaDespistada1981/resilia_bons_drinks).
+<br><br>
+
+
+## ✒️ Desenvolvido por:
+<br>
+
+💻 **Roberta Santos** - [GitHub](https://github.com/LaDespistada1981) | [LinkedIn](https://www.linkedin.com/in/santosroberta/)
+
+<br>
+
+
+
+

@@ -1,7 +1,7 @@
-export async function requisicao(){
-    const response = await fetch("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita")
+export const drinkAleatorio = async () => {
+    const response = await fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php');
 
-    const dados = await response.json()
+    const dados = await response.json();
 
-    return dados.drinks
+    return dados;
 }
