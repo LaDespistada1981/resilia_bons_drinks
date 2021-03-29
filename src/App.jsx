@@ -27,7 +27,7 @@ const App = () => {
           <Route exact to path="/sobre">
             <Sobre titulo="Sobre Nós" />
           </Route>
-          <Route exact to path="/drinks/*">
+          <Route exact to path="/drinks">
             <Drinks titulo="Drinks" />
           </Route>
         </Switch>

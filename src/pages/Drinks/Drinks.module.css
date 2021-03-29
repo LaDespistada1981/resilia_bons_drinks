@@ -1,26 +1,30 @@
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
 .drinks {
-  margin-top: 80px;
-  display: grid;
-  width: 80%;
-  justify-self: center;
-  grid-template-areas:
-    "title title"
-    "half1 half2";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 40px auto;
-  grid-gap: 20px;
-  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 40px;
 }
 
 .content {
   grid-area: content;
 }
 
-.titleSobre {
+.title {
   display: grid;
   grid-area: title;
   font-weight: 700;
   font-size: 30px;
   color: var(--red_wine);
   text-align: center;
+}
+
+.drinks {
 }

@@ -1,11 +1,13 @@
 .sorteiaDrink {
+  width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .cartao {
-  background-color: aqua;
   display: flex;
-  width: 300px;
-  height: 300px;
+  justify-content: space-around;
+  width: 50%;
+  height: 150px;
 }
