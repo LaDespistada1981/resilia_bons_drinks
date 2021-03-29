@@ -1,17 +1,11 @@
-.buscarDrinks {
-  grid-area: content;
-  display: grid;
-  grid-template-areas: "cabecalio" "conteudo-Drink";
-  grid-template-rows: 3fr 5fr;
-}
-
-.cabecalho {
-  grid-area: cabecalho;
+.sorteiaDrink {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.conteudo {
-  grid-area: conteudo-Drink;
+.cartao {
+  background-color: aqua;
+  display: flex;
+  width: 300px;
+  height: 300px;
 }

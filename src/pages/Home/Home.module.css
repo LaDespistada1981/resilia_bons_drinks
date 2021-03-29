@@ -16,4 +16,16 @@
   font-size: 120px;
   font-weight: bold;
   margin-top: 10px;
+  animation-name: zoom;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+  from {
+    font-size: 50px;
+  }
+  to {
+    font-size: 120px;
+  }
 }

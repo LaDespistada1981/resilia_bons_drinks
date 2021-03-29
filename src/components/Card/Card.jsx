@@ -4,9 +4,9 @@ import TextBox from "../TextBox/TextBox";
 
 const Card = (props) => {
   return (
-    <div className={styles.div}>
-      <img className={styles.img} src={props.img} alt="drink randomico" />
-      <h5 className={styles.nome}>{props.nome}</h5>
+    <div className={styles.card}>
+      <img className={styles.img} src={props.imagem} />
+      <h4 className={styles.nome}>{props.nome}</h4>
       <TextBox />
     </div>
   );
