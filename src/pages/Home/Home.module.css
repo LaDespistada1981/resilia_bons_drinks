@@ -1,6 +1,6 @@
 .containerImg {
   grid-area: content;
-  width: 100vw;
+  width: 100%;
   height: calc(100vh - 100px);
   background: url("../../img/bgHome.jpg") no-repeat 50%;
   background-size: cover;
