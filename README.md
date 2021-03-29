@@ -11,6 +11,8 @@
 
 # Projeto 
 ## **Bons Drinks**
+### [link site](https://drink-diabolico.netlify.app/sobre)
+
 
 Este projeto trata-se do projeto de conclusão do módulo de React do curso de desenvolvimento web full stack do bootcamp <a href="https://www.resilia.work/" target="_blank"> <img src="https://i.imgur.com/pl1r9l3.png" alt="Resilia" width="75" height="auto"/></a> e foi desenvolvido ao longo dos meses de fevereiro e março de 2021.
 
